@@ -25,9 +25,7 @@ feature 'User register recipe' do
     expect(page).to have_css('p', text: 'Arabe')
     expect(page).to have_css('p', text: 'Fácil')
     expect(page).to have_css('p', text: "45 minutos")
-    expect(page).to have_css('h3', text: 'Ingredientes')
     expect(page).to have_css('p', text: 'Trigo para quibe, cebola, tomate picado, azeite, salsinha')
-    expect(page).to have_css('h3', text: 'Como Preparar')
     expect(page).to have_css('p', text:  'Misturar tudo e servir. Adicione limão a gosto.')
   end
 end
